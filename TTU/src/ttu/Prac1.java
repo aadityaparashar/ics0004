@@ -5,6 +5,8 @@
  */
 package ttu;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author aadityaparashar
@@ -60,7 +62,7 @@ public class Prac1 extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 
-    System.out.println("lol");
+    JOptionPane.showMessageDialog(this,"lol");
 
 
         // TODO add your handling code here:
